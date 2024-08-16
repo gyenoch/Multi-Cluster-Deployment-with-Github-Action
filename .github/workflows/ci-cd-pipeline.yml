@@ -21,8 +21,8 @@ jobs:
           java-version: 11
           distribution: 'adopt'  # Options: adopt, zulu, etc.
 
-      - name: Install Maven
-        run: sudo apt-get update && sudo apt-get install -y maven
+      # - name: Install Maven
+      #   run: sudo apt-get update && sudo apt-get install -y maven
 
       - name: Cache SonarQube packages
         uses: actions/cache@v1
